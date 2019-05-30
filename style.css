@@ -1,0 +1,136 @@
+body, html {
+    height: 100%;
+}
+
+h3 {
+    font-family: 'Molengo', sans-serif;
+    color: white;
+    margin-left: 15px;
+    margin-top: 45px; 
+}
+h4 {
+    font-size: 20px;
+    font-family: 'Molengo', sans-serif;
+    
+padding-top: 20px;
+padding-left: 15px;}
+
+.card-title {
+    color: white;
+    font-family: 'Molengo', sans-serif;
+
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+#buttonBar {
+    text-align: left;
+    align-content: center;
+    font-family: 'Molengo', sans-serif;
+}
+
+.gifButton {
+    font-size: 20px;
+    margin-left: 35px;
+    margin-top: 25px;
+    font-family: 'Molengo', sans-serif;
+
+}
+
+.card-body {
+    padding: 10px;
+    text-transform: uppercase;
+    background-color: teal;
+}
+
+#main {
+    position: relative;
+    padding-top: 25px;
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+#main::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 20 10 3px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+#main::-webkit-scrollbar
+{
+	width: 15px;
+	background-color: #F5F5F5;
+}
+
+#main::-webkit-scrollbar-thumb
+{
+	background-color:teal;
+}
+
+#sideBar {
+    padding-top: 45px;
+    color: lightseagreen;
+    background-color: #343a40;
+    height: 120vh;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+#sideBar::-webkit-scrollbar-track
+{
+	background-color: #F5F5F5;
+}
+
+#sideBar::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+
+.form-control {
+    background-color: white;
+}
+
+.far {
+    color: white;
+    display: inline-block;
+    margin: 15px 10px;
+    cursor: pointer;
+}
+
+.fas {
+    color: #FECE00;
+    display: inline-block;
+    margin: 15px 10px;
+    cursor: pointer;
+}
+
+#favGifs {
+    color: black;
+    font-size: 15px;
+    
+}
+
+.favorites {
+    margin-bottom: 30px;
+}
+.card-columns {
+    padding-top: 8px;
+}
+.card-title {
+    margin-bottom: 0;
+    font-family: 'Molengo', sans-serif;
+
+    
+}
+p.rating {
+    width: fit-content;
+    font-family: 'Molengo', sans-serif;
+    padding: 6px 10px;
+    font-size: 16px;
+    color: #fff;
+}
